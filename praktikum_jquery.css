@@ -1,0 +1,24 @@
+html,body{
+    background-color: #2beb04bb;
+}
+
+.bagian-atas{
+    background-color: #2beb04bb;
+}
+
+.bagian-buttom{
+    background-color: #2beb04bb;
+}
+
+#img{
+    background-color: #2beb04bb;
+    padding: 50px;
+}
+
+.container p{
+    color: black;
+}
+
+.card-body{
+    background-color: rgb(252, 8, 8);
+}

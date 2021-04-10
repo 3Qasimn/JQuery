@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="praktikum_jquery.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    
+    <title>File</title>
+</head>
+<body>
+    <section>
+        <div class="bagian-atas">
+        <!-- Hide Show -->
+        <h1 id="nama"></h1>
+        <p id="nim"></p>
+
+        <!-- fade -->
+        <h5 id="tanggal" style="display: none;">Jayapura 03 06 </h5>
+        </div>
+    </section>
+
+     <!-- slide -->
+     <section>
+        <div class="container" id="img">
+            <div class="row mt-5">
+                <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://cdn0-production-images-kly.akamaized.net/eta_ppjtswtohRybe4y8O1wmaa4=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2779916/original/087789600_1555392150-iStock-1141044903.jpg" class="rounded card-img-top" alt="" height="350">
+                        <div class="card-body">
+                          <p class="card-text">Masjidilaqsa atau Masjid Al-Aqsa, juga disebut dengan Baitulmaqdis atau Bait Suci, Al Haram Asy Syarif, Bukit Bait, adalah nama sebuah kompleks seluas 144.000 meter persegi yang berada di Kota Lama Yerusalem. Kompleks ini menjadi tempat yang disucikan oleh umat Islam, Yahudi, dan Kristen.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://media.suara.com/pictures/480x260/2020/07/30/32568-masjidil-haram.jpg" class="rounded card-img-top" alt="" height="350">
+                        <div class="card-body">
+                          <p class="card-text">Masjidilharam, Masjid al-Haram atau al-Masjid al-Haram adalah sebuah masjid yang berlokasi di pusat kota Makkah yang dipandang sebagai tempat tersuci bagi umat Islam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://asset.kompas.com/crops/1I7nsKrKO9vX4mxYfquEv_VQlAs=/15x0:727x475/780x390/data/photo/2020/06/01/5ed4d249b9578.jpg" class="rounded card-img-top" alt="" height="350">
+                        <div class="card-body">
+                          <p class="card-text">Masjid Nabawi atau Al-Masjid an-Nabawī adalah sebuah masjid yang didirikan secara langsung oleh Nabi Muhammad, berlokasi di pusat kota Madinah di Arab Saudi. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <section>    
+        <div class="bagian-buttom">        
+            <!-- buttom hide show toggle -->
+            <button id="hide" type="button" class="btn btn-dark">Sembunyikan</button>
+            <button id="show" type="button" class="btn btn-dark">Perlihatkan</button>
+            <button id="toggle" type="button" class="btn btn-dark">Toggle</button>
+            
+            <!-- buttom fade -->
+            <button id="fadeIn" type="button" class="btn btn-dark">Fade In</button>
+            <button id="fadeOut" type="button" class="btn btn-dark">Fade Out</button>
+            <button id="fadeToggle" type="button" class="btn btn-dark">Fade Toggle</button>
+            
+            <!-- buttom fade -->
+            <button id="slideUp" type="button" class="btn btn-dark">Slide Up</button>
+            <button id="slideDown" type="button" class="btn btn-dark">Slide Down</button>
+            <button id="slideToggle" type="button" class="btn btn-dark">Slide Toggle</button>
+        </div>
+    </section>
+
+<script src="jquery.js"></script>
+<script src="praktikum_jquery.js"></script>
+</body>
+</html>
